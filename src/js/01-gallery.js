@@ -13,7 +13,6 @@ const galleryItem = galleryItems
   .map(({ preview, original, description }, index) => {
     //
     return `
-
     <a
       class="gallery__link"
       href="${original}"
@@ -26,7 +25,6 @@ const galleryItem = galleryItems
       alt="${description}"
     />
   </a>
-
 `;
   })
   .join('');
